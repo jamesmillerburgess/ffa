@@ -5,5 +5,7 @@ var jobData = [
 ];
 
 Template.jobList.helpers({
-  jobs: jobData
+  jobs: function() {
+    return Jobs.find();
+  }
 });
