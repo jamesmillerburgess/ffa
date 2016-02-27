@@ -1,4 +1,4 @@
-.grid-block, .main, .post, .comments li, .comment-form {
+.grid-block, .menu, .post, .comments li, .comment-form {
   background: #fff;
   border-radius: 3px;
   padding: 10px;
@@ -11,8 +11,10 @@ body {
   background: #eee;
   color: #666666; }
 
-#main {
+.main {
   position: relative;
+  width: 100%;
+  background: #eee;
 }
 .page {
   position: absolute;
@@ -148,6 +150,7 @@ body {
   bottom: 0px;
   pointer-events: none;
 }
+
 .alert {
   animation: fadeOut 2700ms ease-in 0s 1 forwards;
   -webkit-animation: fadeOut 2700ms ease-in 0s 1 forwards;
@@ -157,4 +160,8 @@ body {
   clear: both;
   margin-bottom: 5px;
   pointer-events: auto;
+}
+
+.menu {
+  max-width: 250px;
 }
